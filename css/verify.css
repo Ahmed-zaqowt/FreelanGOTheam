@@ -1,0 +1,72 @@
+* {
+  margin: 0; padding: 0; box-sizing: border-box;
+  font-family: 'Tahoma', sans-serif;
+}
+
+body {
+  background: #f4f7fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  direction: rtl;
+}
+
+.verify-container {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+}
+
+.verify-box {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.verify-box h2 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.step-label {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+input[type="file"] {
+  margin-bottom: 25px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 100%;
+  background: #f9f9f9;
+}
+
+.btn-primary {
+  padding: 14px 30px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: #0056b3;
+}
+
+.hidden {
+  display: none;
+}
+
+#successMessage {
+  margin-top: 30px;
+  color: green;
+}
